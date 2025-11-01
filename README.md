@@ -81,26 +81,7 @@ const API_URL = "http://localhost:5000/api";
 Method	Endpoint	Description
 POST	/api/rates/check	Check courier rates
 GET	/api/rates/history	Fetch rate check history
-🖼️ Screenshots (Optional)
-
-(Add these once you take screenshots)
-
-Home Page	History Popup
-
-	
-🧩 Example MongoDB Document
-{
-  "pickupPincode": "110035",
-  "deliveryPincode": "110094",
-  "weight": 10,
-  "serviceType": "Standard",
-  "results": [
-    { "courier": "Delhivery", "rate": 155, "eta": "3 days" },
-    { "courier": "Bluedart", "rate": 160, "eta": "2 days" },
-    { "courier": "DTDC", "rate": 158, "eta": "4 days" }
-  ],
-  "createdAt": "2025-11-01T10:40:31.252Z"
-}
+🖼️ 
 
 
 👨‍💻 Author

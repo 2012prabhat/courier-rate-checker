@@ -27,7 +27,7 @@ export default function RateTable({ results }: { results: any[] }) {
           onClick={() => setVisible(false)}
           sx={{ color: "grey.600" }}
         >
-          <CloseIcon   sx={{ color: "red" }} /> 
+          {/* <CloseIcon   sx={{ color: "red" }} />  */}
         </IconButton>
       </Box>
 
